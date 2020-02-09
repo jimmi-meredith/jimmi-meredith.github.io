@@ -39,7 +39,7 @@ div {
     background-color: rgb(228, 224, 224);
     width: 750px;
     border-radius: 5%;
-    box-shadow: rgb(51, 51, 51);
+    box-shadow: 5px 5px 10px rgb(51, 51, 51);
 }
 
 h2 {
