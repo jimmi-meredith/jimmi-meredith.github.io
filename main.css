@@ -1,5 +1,10 @@
 body {
     background-color: rgb(205, 209, 209);
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    text-align: center;
 }
 
 ul {
