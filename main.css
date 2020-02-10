@@ -3,13 +3,23 @@
 }
 
 .intro {
-    margin: 20px;
-    border: 0;
+    background-color: rgb(228, 224, 224);
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(51, 51, 51);
+    display: inline-block;
     padding: 20px;
+    margin: 2.5% 0 2.5% 0;
 }
 
 .column {
-
+    background-color: rgb(228, 224, 224);
+    width: 25%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(51, 51, 51);
+    display: inline-block;
+    padding: 20px;
+    margin: 0 2.5% 0 2.5%;
 }
 
 .blog-item {
