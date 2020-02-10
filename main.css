@@ -1,3 +1,22 @@
+.active {
+    background-color: rgb(17, 17, 17)
+}
+
+.intro {
+    margin: 20px;
+    border: 0;
+    padding: 20px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+.p-home {
+    text-align: center;
+}
+
 body {
     background-color: rgb(182, 182, 182);
     font-family: 'Lato', sans-serif;
@@ -29,16 +48,6 @@ li a {
   
 li a:hover {
     background-color: rgb(17, 17, 17);
-}
-
-.active {
-    background-color: rgb(17, 17, 17)
-}
-
-.intro {
-    margin: 20px;
-    border: 0;
-    padding: 20px;
 }
 
 div {
