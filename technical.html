@@ -1,51 +1,86 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>My Blog</title>
-    <link href="main.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-    <h1>Jimmi Meredith's Dev Blog</h1>  
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="identity.html">Identity, Values, and Strengths</a></li>
-        <li><a class="active" href="technical.html">Technical Blog</a></li>
-      </ul>
-    </nav>
-  </head>
-  <body>
-    <div class="outer-blog">
-      <div>
-        <h2 class="intro">What is the difference between Margin, Border, and Padding?</h2>
-      </div>
-      <div class="blog-item">
-        <h2>The Basics</h2>
-        <p>First things first, it’s important to know that all HTML elements are considered as boxes. And in CSS, this is referred to as the ‘box model’ when talking about design and layout. Let’s take a look at what a basic box model looks like.
-        </p>
-        <img id="box-model" src="Photos/Image 11-02-20 at 4.14 PM.jpeg" alt="Basic Box Model">
-        <p>Using the above image as our guide, we can identify the four sections of our HTML box model.<br>
-        </p> 
-        <p>  
-          We have:
-        </p>
-          <p><span class="bold">CONTENT</span> – The content of the box, generally where text and images appear<br>
-            <span class="bold">PADDING</span> – The area between the content and the border of the box<br>
-            <span class="bold">BORDER</span> – The border edge of the box<br>
-            <span class="bold">MARGIN</span> – The area between the box’s border and any neighbouring elements
-          </p>
-        </div>
-        <div class="blog-item">
-          <h2>PADDING</h2>
-        <img id="padding-1" src="Photos/Image 11-02-20 at 4.02 PM.jpeg" alt="Two Yellow Boxes">
-        <p>Looking at the image above, we can see some text in a yellow box, that has a black border. The difference between these two images is that the top one has a padding of 0 pixels, while the bottom one has a padding of 20 pixels. Notice how in the second box the space between the text and the border is much larger. This is because all around the content (the text) in the box, there is now 20 pixels of padding between it and the border.
-        </p>
-        <p>This can all be adjusted to specific sides as well if you wish to have a different amount of padding on different sides.
-        </p>
-        <p>For example:
-        </p>
-        <img src="Photos/Image 11-02-20 at 5.05 PM.jpeg" alt="Box with Special Padding">
-        <p>The padding here has been modified so that there is 30px on the top, 70px on the right, 20px on the bottom, and 40px on the left. </p>
-      </div>
+
+<head>
+  <title>My Blog</title>
+  <link href="main.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <h1>Jimmi Meredith's Dev Blog</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="identity.html">Identity, Values, and Strengths</a></li>
+      <li><a class="active" href="technical.html">Technical Blog</a></li>
+    </ul>
+  </nav>
+</head>
+
+<body>
+  <div class="outer-blog">
+    <div>
+      <h2 class="intro">What is the difference between Margin, Border, and Padding?</h2>
     </div>
-  </body>
+    <div class="blog-item">
+      <h2>The Basics</h2>
+      <p>First things first, it’s important to know that all HTML elements are considered as boxes. And in CSS, this is
+        referred to as the ‘box model’ when talking about design and layout. Let’s take a look at what a basic box model
+        looks like.</p>
+      <img id="box-model" src="Photos/Image 11-02-20 at 4.14 PM.jpeg" alt="Basic Box Model">
+      <p>Using the above image as our guide, we can identify the four sections of our HTML box model.<br></p>
+      <p>
+        We have:</p>
+      <p><span class="bold">CONTENT</span> – The content of the box, generally where text and images appear<br>
+        <span class="bold">PADDING</span> – The area between the content and the border of the box<br>
+        <span class="bold">BORDER</span> – The border edge of the box<br>
+        <span class="bold">MARGIN</span> – The area between the box’s border and any neighbouring elements
+      </p>
+    </div>
+    <div class="blog-item">
+      <h2>PADDING</h2>
+      <img id="tech-photo" src="Photos/Image 11-02-20 at 4.02 PM.jpeg" alt="Two Yellow Boxes">
+      <p>Looking at the images above, we can see some text in a yellow box, that has a black border. The difference
+        between these two images is that the top one has a padding of 0 pixels, while the bottom one has a padding of 20
+        pixels. Notice how in the second box the space between the text and the border is much larger. This is because
+        all around the content (the text) in the box, there is now 20 pixels of padding between it and the border.</p>
+      <p>This can all be adjusted to specific sides as well if you wish to have a different amount of padding on
+        different sides.</p>
+      <p>For example:</p>
+      <img id="tech-photo" src="Photos/Image 11-02-20 at 5.05 PM.jpeg" alt="Box with Special Padding">
+      <p>The padding here has been modified so that there is 30px on the top, 70px on the right, 20px on the bottom, and
+        40px on the left.</p>
+    </div>
+    <div class="blog-item">
+      <h2>BORDER</h2>
+      <p>Every element has a border, even if not obvious at first. Looking at these images below, we can the same boxes,
+        but the top one has a border set to 0, and the second has a solid black border that is 10 pixels thick.</p>
+      <img id="tech-photo" src="Photos/Image 11-02-20 at 9.43 PM.jpeg" alt="Two Boxes, One Without A Border">
+      <p>Styling the border impacts the size of the full box element itself, but doesn’t affect the spacing between the
+        content and the border, or the border and the margin.</p>
+      <p>
+        Just like padding, you can have different amounts of border on each side of the box.
+        But unlike padding, you can also choose the colour, pattern, or even the shape of the border as well.</p>
+      <img id="tech-photo" src="Photos/Image 11-02-20 at 9.52 PM.jpeg" alt="Box With Red And Green Border">
+      <p>Here’s a fun one with a red dashed border on the top and bottom, but a solid green one on the left and right.</p>
+    </div>
+    <div class="blog-item">
+      <h2>MARGIN</h2>
+      <p>The Margin properties of the box element are used to create space around the border. Both of the below images
+        have a margin set to 0.</p>
+      <img id="tech-photo" src="Photos/Image 12-02-20 at 8.29 AM.jpeg" alt="Two Boxes With Margin Set To 0">
+      <p>Now if we add 20 pixels of margin to the second box, we get this:</p>
+      <img id="tech-photo" src="Photos/Image 12-02-20 at 8.18 AM.jpeg" alt="Box with Special Padding">
+      <p>In the second image the space around the border has had 20 pixels added to it, making the overall size of the
+        box much
+        larger, even though what we actually see stays the same.</p>
+      <p>Again, just like padding and border, you can adjust the properties for each individual side of the box as well.</p>
+    </div>
+    <div class="blog-item">
+      <p>NOTE: When you are styling the size of a box element, it’s important to note that you are just styling the
+        <span class="bold">'content'</span> of the box, and not the padding, border, or margin. So when you are styling
+        something, it is important
+        to account for these extras as well.</p>
+    </div>
+  </div>
+</body>
+
 </html>

@@ -2,10 +2,14 @@ body {
     background-color: rgb(228, 224, 224);
 }
 
+div {
+    text-align: center;
+}
 .padding-1 {
     background-color: gold;
     border-style: solid;
     border-width: 5px, black;
+    padding: 0px;
     width: 200px;
     margin: 10px;
     display: inline-block;
@@ -31,6 +35,51 @@ body {
     display: inline-block;
 }
 
-div {
-    text-align: center;
+.border-1 {
+    background-color: gold;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border-style: none;
+    display: inline-block;
+}
+
+.border-2 {
+    background-color: gold;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border-style: solid;
+    border-width: 20px;
+    border-color: black;
+    display: inline-block;
+}
+
+.border-3 {
+    background-color: gold;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border-style: dashed solid; 
+    border-width: 10px; 
+    border-color: red green;   
+    display: inline-block;
+}
+
+.margin-1 {
+    background-color: gold;
+    border-style: solid;
+    border-width: 5px, black;
+    padding: 10px;
+    width: 200px;
+    margin: 0;
+}
+
+.margin-2 {
+    background-color: gold;
+    border-style: solid;
+    border-width: 5px, black;
+    padding: 10px;
+    width: 200px;
+    margin: 0;
 }

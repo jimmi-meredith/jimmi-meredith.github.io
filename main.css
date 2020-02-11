@@ -49,12 +49,13 @@
 #box-model {
     max-width: 55%;
     max-height: 55%;
+    margin: 20px 0px;
+}
+
+.tech-photo {
     margin: auto;
 }
 
-#padding-1 {
-    margin: auto;
-}
 body {
     background-color: rgb(190, 190, 190);
     font-family: 'Lato', sans-serif;
