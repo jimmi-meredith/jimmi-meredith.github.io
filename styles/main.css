@@ -18,7 +18,7 @@
 
 .column {
     background-color: rgb(228, 224, 224);
-    width: 25%;
+    width: 33.3%;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgb(51, 51, 51);
     display: inline-block;
@@ -99,4 +99,9 @@ li a:hover {
 
 p {
     text-align: justify;
+}
+
+.resize {
+    max-width: 50%;
+    height: auto;
 }

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Blog</title>
+  <link href="../styles/main.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <h1>JIMMI MEREDITH'S DEV BLOG</h1>
+  <nav>
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="sprint1-technical.html">Te Houtaewa</a></li>
+      <li><a href="sprint1-cultural.html">Identity</a></li>
+      <li><a href="sprint2-technical.html">Box Element</a></li>
+      <li><a href="sprint2-cultural.html">Goals</a></li>
+      <li><a class="active" href="sprint3-technical.html">JavaScript</a></li>
+      <li><a href="sprint3-cultural.html">EQ</a></li>
+    </ul>
+  </nav>
+</head>
+
+<body>
+  <div class="outer-blog">
+    <div>
+      <h2 class="intro">Introduction To JavaScript</h2>
+    </div>
+    <div class="blog-item">
+      <h2 class="sub-heading">HTML vs CSS</h2>
+      <p>Think of a house. The HTML is all of the base properties that the house needs. The walls, the doors, the
+        windows, the roof, floor, and whatever else the house needs to be functional. The CSS would be how everything
+        about the house looks. What colour the paint is, how tall the house is, where the doors are located, what the
+        walls are made of, etc. Everything that affects the look and style of the house is done by the CSS.</p>
+    </div>
+    <div class="blog-item">
+      <h2 class="sub-heading">CONTROL FLOW AND LOOPS</h2>
+      <p>Let’s go inside the house and make some toast for breakfast. Control flow will help us determine what we want
+        on our toast. Our favourite flavour is peanut butter, so if that’s available we’ll have that. But we need some
+        backup options if there isn’t any. Control flow will dictate what we have on our toast, depend on what is
+        available in the cupboard.</p>
+        <img id="tech-photo" class="resize" src="../Photos/ToastTree.png" alt="Decision Tree For Making Toast">
+        <p>Here we have instructions that tell us if there is peanut butter, to make toast with that. If there isn’t any
+          but there is marmite, we will have that instead. But in the unlucky event that we are lacking both
+          ingredients, we’re going to suffer with plain crispy bread. Yum.</p>
+        <p>
+          With loops, we can choose to repeat the same set of instructions multiple times. There are three different
+          ways we can do this, by using the ‘<span class="bold">for</span>,’ ‘<span class="bold">while</span>,’ and
+          ‘<span class="bold">do… while</span>’ loops. Let’s take a look at how we want to approach eating those
+          delicious cupcakes we spotted while making our toast.</p>
+          <img id="tech-photo" class="resize" src="../Photos/ToastTree.png" alt="Decision Tree For Making Toast">
+          <img id="tech-photo" class="resize" src="../Photos/ToastTree.png" alt="Decision Tree For Making Toast">
+          <img id="tech-photo" class="resize" src="../Photos/ToastTree.png" alt="Decision Tree For Making Toast">
+    </div>
+    <div class="blog-item">
+      <h2 class="sub-heading">THE DOM</h2>
+      <p>The DOM (or Document Object Model) is an interface which represents each component of the HTML document as an
+        object. Which allows JavaScript (an object-orientated language) to manipulate and interact with everything
+        within the document.<br>
+        Each element in the DOM is referred to as a ‘node,’ and the model lays out everything as a tree diagram as seen
+        in the (simplified) image below.
+      </p>
+      <img id="tech-photo" src="../Photos/Image 11-02-20 at 9.43 PM.jpeg" alt="Two Boxes, One Without A Border">
+      <p>An example of a way we can use JavaScript to access a node is through classes. If I wanted to change the
+        background colour of each item that had the class “heading,” I can find them all in JavaScript using
+        document.getElementsByClassName(‘heading’) and choose to make my changes from there.</p>
+    </div>
+    <div class="blog-item">
+      <h2 class="sub-heading">ARRAYS AND OBJECTS</h2>
+      <p>Arrays and objects are two different ways you can use variables to store multiple bits of information. The
+        difference being that an array is a variable that contains a list of multiple data points, while objects are
+        variables that contains multiple properties representing them.</p>
+      <p>Look at the examples below.</p>
+      <img id="tech-photo" src="../Photos/Image 12-02-20 at 8.29 AM.jpeg" alt="Two Boxes With Margin Set To 0">
+      <p>This is an array. Note how within the square brackets there can be strings, numbers, objects, Booleans, and
+        even other arrays. Arrays are accessed with zero-indexing, meaning that each element is numbered within the
+        array starting from zero. So if I wanted to access ‘ ,‘ I would have to use <span
+          class="bold">console.log(faveFoods[2])</span>.</p>
+      <img id="tech-photo" src="../Photos/Image 12-02-20 at 8.18 AM.jpeg" alt="Box with Special Padding">
+      <p>This is an object. Objects are different as you access the key for a property within the variable, done
+        through either a dot, or bracket notation. For example </p>
+    </div>
+    <div class="blog-item">
+      <h2 class="sub-heading">ARRAYS AND OBJECTS</h2>
+      <p>Functions are a set of code that is used to perform a set of instructions. We create the code required for a
+        certain task, then we can call that function to be used anytime throughout or code. This is extremely handy as
+        it means we can write the function once and reuse it whenever we want or need to.<br>
+        Here is an example of a function that determines if somebody would enjoy eating dessert after dinner.
+      </p>
+      <img id="tech-photo" src="../Photos/Image 12-02-20 at 8.29 AM.jpeg" alt="Two Boxes With Margin Set To 0">
+      <p>This is an array. Note how within the square brackets there can be strings, numbers, objects, Booleans, and
+        even other arrays. Arrays are accessed with zero-indexing, meaning that each element is numbered within the
+        array starting from zero. So if I wanted to access ‘ ,‘ I would have to use <span
+          class="bold">console.log(faveFoods[2])</span>.</p>
+      <img id="tech-photo" src="../Photos/Image 12-02-20 at 8.18 AM.jpeg" alt="Box with Special Padding">
+      <p>TIf I enter my details into the function wantsDessert(true, Jimmi) of course it obviously returns ‘What are you
+        waiting for? Go smash some sweet goods.’</p>
+    </div>
+  </div>
+</body>
+
+</html>
