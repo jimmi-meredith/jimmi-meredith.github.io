@@ -40,18 +40,18 @@
         on our toast. Our favourite flavour is peanut butter, so if that’s available we’ll have that. But we need some
         backup options if there isn’t any. Control flow will dictate what we have on our toast, depend on what is
         available in the cupboard.</p>
-        <img id="tech-photo" class="resize" src="../Photos/ToastTree.png" alt="Decision Tree For Making Toast">
-        <p>Here we have instructions that tell us if there is peanut butter, to make toast with that. If there isn’t any
-          but there is marmite, we will have that instead. But in the unlucky event that we are lacking both
-          ingredients, we’re going to suffer with plain crispy bread. Yum.</p>
-        <p>
-          With loops, we can choose to repeat the same set of instructions multiple times. There are three different
-          ways we can do this, by using the ‘<span class="bold">for</span>,’ ‘<span class="bold">while</span>,’ and
-          ‘<span class="bold">do… while</span>’ loops. Let’s take a look at how we want to approach eating those
-          delicious cupcakes we spotted while making our toast.</p>
-          <img id="tech-photo" class="resize" src="../Photos/ToastTree.png" alt="Decision Tree For Making Toast">
-          <img id="tech-photo" class="resize" src="../Photos/ToastTree.png" alt="Decision Tree For Making Toast">
-          <img id="tech-photo" class="resize" src="../Photos/ToastTree.png" alt="Decision Tree For Making Toast">
+      <img id="tech-photo" class="resize" src="../Photos/ToastTree.png" alt="Decision Tree For Making Toast">
+      <p>Here we have instructions that tell us if there is peanut butter, to make toast with that. If there isn’t any
+        but there is marmite, we will have that instead. But in the unlucky event that we are lacking both
+        ingredients, we’re going to suffer with plain crispy bread. Yum.</p>
+      <p>
+        With loops, we can choose to repeat the same set of instructions multiple times. There are three different
+        ways we can do this, by using the ‘<span class="bold">for</span>,’ ‘<span class="bold">while</span>,’ and
+        ‘<span class="bold">do… while</span>’ loops. Let’s take a look at how we want to approach eating some
+        delicious cupcakes we happened to have spotted while making our toast.</p>
+      <img id="tech-photo" class="resize-2" src="../Photos/CupcakeLoop.jpeg" alt="Cupcake Eating Decision Loop">
+      <img id="tech-photo" class="resize-2" src="../Photos/EatIfHungry.jpeg" alt="Do Loop Example">
+      <img id="tech-photo" class="resize-2" src="../Photos/EatFirst.jpeg" alt="Do While Loop Example">
     </div>
     <div class="blog-item">
       <h2 class="sub-heading">THE DOM</h2>
@@ -61,10 +61,11 @@
         Each element in the DOM is referred to as a ‘node,’ and the model lays out everything as a tree diagram as seen
         in the (simplified) image below.
       </p>
-      <img id="tech-photo" src="../Photos/Image 11-02-20 at 9.43 PM.jpeg" alt="Two Boxes, One Without A Border">
+      <img id="tech-photo" src="../Photos/html_dom_tree.png" alt="Two Boxes, One Without A Border">
       <p>An example of a way we can use JavaScript to access a node is through classes. If I wanted to change the
-        background colour of each item that had the class “heading,” I can find them all in JavaScript using
-        document.getElementsByClassName(‘heading’) and choose to make my changes from there.</p>
+        background colour of each item that had the class 'heading,' I can find them all in JavaScript using
+        <span class="bold">document.getElementsByClassName(‘heading’)</span> and choose to make my changes from there.
+      </p>
     </div>
     <div class="blog-item">
       <h2 class="sub-heading">ARRAYS AND OBJECTS</h2>
@@ -72,30 +73,29 @@
         difference being that an array is a variable that contains a list of multiple data points, while objects are
         variables that contains multiple properties representing them.</p>
       <p>Look at the examples below.</p>
-      <img id="tech-photo" src="../Photos/Image 12-02-20 at 8.29 AM.jpeg" alt="Two Boxes With Margin Set To 0">
-      <p>This is an array. Note how within the square brackets there can be strings, numbers, objects, Booleans, and
+      <img id="tech-photo" src="../Photos/FaveFoodsArray.jpeg" alt="FaveFoods Array In JavaScript">
+      <p>This is an array. Note: Within the square brackets there can be strings, numbers, objects, Booleans, and
         even other arrays. Arrays are accessed with zero-indexing, meaning that each element is numbered within the
-        array starting from zero. So if I wanted to access ‘ ,‘ I would have to use <span
+        array starting from zero. So if I wanted to access ‘Burger‘ I would have to use <span
           class="bold">console.log(faveFoods[2])</span>.</p>
-      <img id="tech-photo" src="../Photos/Image 12-02-20 at 8.18 AM.jpeg" alt="Box with Special Padding">
+      <img id="tech-photo" src="../Photos/BurgerObject.jpeg" alt="Burger As An Object In JavaScript">
       <p>This is an object. Objects are different as you access the key for a property within the variable, done
-        through either a dot, or bracket notation. For example </p>
+        through either a dot, or bracket notation (though with a slight difference of one needing quotes and one
+        not).<br>
+        For example, both <span class="bold">console.log(myBurger.Sauce)</span> and <span
+          class="bold">console.log(myBurger['Sauce'])</span> will return the property 'Peanut Satay.'</p>
     </div>
     <div class="blog-item">
-      <h2 class="sub-heading">ARRAYS AND OBJECTS</h2>
+      <h2 class="sub-heading">FUNCTIONS</h2>
       <p>Functions are a set of code that is used to perform a set of instructions. We create the code required for a
         certain task, then we can call that function to be used anytime throughout or code. This is extremely handy as
         it means we can write the function once and reuse it whenever we want or need to.<br>
         Here is an example of a function that determines if somebody would enjoy eating dessert after dinner.
       </p>
-      <img id="tech-photo" src="../Photos/Image 12-02-20 at 8.29 AM.jpeg" alt="Two Boxes With Margin Set To 0">
-      <p>This is an array. Note how within the square brackets there can be strings, numbers, objects, Booleans, and
-        even other arrays. Arrays are accessed with zero-indexing, meaning that each element is numbered within the
-        array starting from zero. So if I wanted to access ‘ ,‘ I would have to use <span
-          class="bold">console.log(faveFoods[2])</span>.</p>
-      <img id="tech-photo" src="../Photos/Image 12-02-20 at 8.18 AM.jpeg" alt="Box with Special Padding">
-      <p>TIf I enter my details into the function wantsDessert(true, Jimmi) of course it obviously returns ‘What are you
-        waiting for? Go smash some sweet goods.’</p>
+      <img id="tech-photo" src="../Photos/WantsDessertFunction.jpeg" alt="Two Boxes With Margin Set To 0">
+      <p>If I enter my details into the function <span class="bold">wantsDessert(true, Jimmi)</span>, true being yes I
+        absolutely feel like something sweet, and name being my name, then of course the function returns 'Hell yea
+        Jimmi, treat yourself!'</p>
     </div>
   </div>
 </body>

@@ -105,3 +105,9 @@ p {
     max-width: 50%;
     height: auto;
 }
+
+.resize-2 {
+    width: 60%;
+    height: auto;
+    margin-bottom: 5px;
+}
