@@ -1,6 +1,15 @@
 .active {
     background-color: rgb(17, 17, 17)
 }
+#home-intro {
+    background-color: rgb(228, 224, 224);
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(51, 51, 51);
+    display: inline-block;
+    padding: 20px;
+    margin: 2.5% 0 5% 0;
+}
 
 .intro {
     background-color: rgb(228, 224, 224);
@@ -9,7 +18,7 @@
     box-shadow: 5px 5px 10px rgb(51, 51, 51);
     display: inline-block;
     padding: 20px;
-    margin: 2.5% 0 5% 0;
+    margin: 2.5% 0 2.5% 0;
 }
 
 .bold {
@@ -33,7 +42,7 @@
     box-shadow: 5px 5px 10px rgb(51, 51, 51);
     display: inline-block;
     padding: 20px;
-    margin: 2.5% 0 2.5% 0;
+    margin: 1.25% 0 1.25% 0;
 }
 
 .p-home {
